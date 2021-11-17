@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        
+        table.centre {
+            margin-left: auto;
+            margin-right: auto;
+            background-color: cyan;
+            text-align: left;
+        }
+    </style>
+    <script>
+        function myFunction() {
+            document.getElementById("Demo").innerHTML = document.getElementById("reg").value;
+        }
+    </script>
+</head>
+
+<body style="text-align: center;">
+
+    <h3 style="color: coral;">
+        Đăng nhập
+    </h3>
+    <table class="centre">
+        <tr>
+            <td>
+                <label>Mã người dùng </label>
+            </td>
+            <td>
+                <input type="text" id="reg" name="reg">
+            </td>
+        </tr>
+        <tr>
+            <td> <label>Mật khẩu  </label></td>
+            <td><input type="password" id="pwd" name="pwd"></td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align: center;"> <button onclick="myFunction()">Đăng nhập </button> </td>
+
+        </tr>
+        <tr>
+            <td colspan="2">
+                <span id="Demo"></span>
+            </td>
+
+
+
+        </tr>
+    </table>
+</body>
+
+</html>

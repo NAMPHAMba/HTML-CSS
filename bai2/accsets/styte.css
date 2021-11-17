@@ -1,0 +1,30 @@
+.header{
+    text-align: center;
+}
+.request{
+    color: blue;
+    text-decoration:underline;
+}
+.sub-request{
+    font-weight: bolder;
+}
+.content{
+    text-align: center;
+    color: #FF3399;
+    background-color: #FECFFD;
+}
+.sub-content-first{
+    text-align: center;
+    color:#0000FF ;
+    text-decoration: underline;
+}
+.sub-content-second{
+    text-align: center;
+    color:red ;
+    text-decoration: underline;
+}
+.sub-content-three{
+    text-align: center;
+    color:#006600 ;
+    text-decoration: underline;
+}

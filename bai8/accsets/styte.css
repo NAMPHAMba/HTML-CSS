@@ -1,0 +1,24 @@
+h1{
+    text-align: center;
+    color:#CC6600;
+}
+.slider{
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    height: 300px;
+}
+.list{
+    margin-left: 50px;
+    ;
+}
+.first-list{
+    background-color: #CC6600;
+    border: 1rem red;
+}
+.thirt-list{
+    background-color: #FFEDCA;
+}
+.fourth-list{
+    background-color: #FFEDCA;
+}

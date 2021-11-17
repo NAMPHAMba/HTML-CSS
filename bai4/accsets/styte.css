@@ -1,0 +1,26 @@
+body {
+    background-image: url('./img/257366644_374785581088737_7569191295484999925_n.jpg') ;
+    background-repeat: no-repeat;
+    font-size: large;
+    height: 500px;
+    width: 600px;
+    background-size: contain;
+    margin: 0;
+    border: 1px slateblue;
+}
+
+h2 {
+    text-align: center;
+    color: #008888;
+}
+
+.first {
+    background-color: #008888;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.second {
+    color: #008888;
+}
